@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLOG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex flex-col items-center bg-[#191919]">
+
+    <nav class="w-full border-b-2 border-white/10 py-5 px-32 text-white/50">
+     
+      <div class="flex justify-between items-center">
+        <div class="w-32 h-7">
+          <a href="/index.html"><img src="images/Logo.svg" alt="devcongress logo" class="flex items-center w-full h-full"/></a>
+        </div>
+
+        <div class=" hidden md:flex text-white flex items-center space-x-8">
+          <a href="#" class="hover:border-white hover:border-b-2 hover:text-white">HOME</a>
+          <a href="#" class="hover:border-white hover:border-b-2 hover:text-white" >BLOG</a>
+          <a href="#" class="hover:border-white hover:border-b-2 hover:text-white" >EVENTS</a>
+          <a href="#" class="border-2 px-6 py-2 text-white hover:border-white hover:border-b-2 hover:text-white">JOIN US</a>
+        </div>
+
+        <div class="mobile-menu-button flex justify-end md:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /> </svg>
+        </div>
+      </div>
+
+      <div class="mobile-menu text-white text-small hidden md:hidden">
+        <a href="#" class="hover:border-white hover:border-b-2 hover:text-white block py-2 px-4">HOME</a>
+        <a href="#" class="hover:border-white hover:border-b-2 hover:text-white block py-2 px-4">BLOG</a>
+        <a href="#" class="hover:border-white hover:border-b-2 hover:text-white block py-2 px-4">EVENTS</a>
+        <a href="#" class="text-white hover:border-white hover:border-b-2 hover:text-white block py-2 px-4" >JOIN US</a>
+      </div>
+    </nav>
+
+    <section class="py-5 px-32 text-white mt-16">
+      <p class="text-2xl mb-8 font-bold">Insider Insights</p>
+      <p class="text-sm font-normal text-white/50">
+        Explore our blog for in-depth articles, tutorials, and insights on the
+        latest trends and developments in the tech industry. From coding tips to
+        industry analysis, our blog is your go-to resource for staying informed
+        and inspired. Dive into our diverse range of topics and join the
+        conversation with fellow tech enthusiasts.
+      </p>
+      <div
+        class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2 gap-6 xl:grid-cols-3 2xl:grid-cols-4 mt-16"
+      >
+        <div class="mt-6">
+          <img src="images/Image.svg" alt="photo" />
+          <p class="font-bold text-xl mt-4 mb-2">
+            The Rise of Remote Work: Challenges and Opportunities
+          </p>
+          <p class="font-normal text-lg text-white/50">
+            Explore the benefits and challenges of remote work in today's
+            digital age. From fostering collaboration to maintaining work-life
+            balance, learn how organizations are adapting to the shift towards
+            remote work and capitalizing on its potential.
+          </p>
+        </div>
+        <div class="mt-6">
+          <img src="images/Image (1).svg" alt="" />
+          <p class="font-bold text-xl mt-4 mb-2">
+            The Future of Work: Adapting to a Hybrid Workplace
+          </p>
+          <p class="font-normal text-lg text-white/50">
+            Explore the evolving nature of work in the post-pandemic era and the
+            rise of hybrid workplaces. From flexible work arrangements to
+            virtual collaboration tools, discover how organizations are
+            navigating the transition to a hybrid work model.
+          </p>
+        </div>
+        <div class="mt-6">
+          <img src="images/Image (1).svg" alt="" />
+          <p class="font-bold text-xl mt-4 mb-2">
+            UX Design Trends to Watch in 2022
+          </p>
+          <p class="font-normal text-lg text-white/50">
+            Stay ahead of the curve with this roundup of the latest UX design
+            trends shaping the digital landscape in 2022. From dark mode
+            interfaces to minimalist design principles, explore the key trends
+            driving user experience innovation.
+          </p>
+        </div>
+        <div class="mt-6">
+          <img src="images/Image.svg" alt="phote" />
+          <p class="font-bold text-xl mt-4 mb-2">
+            The Rise of Remote Work: Challenges and Opportunities
+          </p>
+          <p class="font-normal text-lg text-white/50">
+            Explore the benefits and challenges of remote work in today's
+            digital age. From fostering collaboration to maintaining work-life
+            balance, learn how organizations are adapting to the shift towards
+            remote work and capitalizing on its potential.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-16">
+      <nav class="mb-4 flex justify-center space-x-4" aria-label="Pagination">
+        <span
+          class="active:bg-white active:text-black text-black rounded-lg border border-white bg-black px-4 py-2 text-white"
+        >
+          <span class="sr-only">Previous</span>
+          <svg
+            class="mt-1 h-5 w-5"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </span>
+
+        <span
+          class="hover:bg-white hover:text-black rounded-lg border border-white bg-black px-4 py-2 text-white"
+          >1</span
+        >
+
+        <a
+          class="hover:bg-white hover:text-black rounded-lg border border-white bg-black px-4 py-2 text-white"
+          href="#"
+          >2
+        </a>
+
+        <a
+          class="hover:bg-white hover:text-black rounded-lg border border-white bg-black px-4 py-2 text-white"
+          href="#"
+          >...
+        </a>
+
+        <a
+          class="hover:bg-white hover:text-black rounded-lg border border-white bg-black px-4 py-2 text-white"
+          href="#"
+          >3
+        </a>
+
+        <a
+          class="hover:bg-white hover:text-black rounded-lg border border-white bg-black px-4 py-2 text-white"
+          href="#"
+        >
+          <span class="sr-only">Next</span>
+          <svg
+            class="mt-1 h-5 w-5"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </a>
+      </nav>
+    </section>
+
+    <section class="w-[80%] text-white font-bold">
+      <p class="mb-4"><span class="text-pink-600">dev:</span>congress{};</p>
+      <div
+        class="grid grid-cols-2 gap-3 md:grid-cols-2 lg:grid-cols-4 gap-6 xl:grid-cols-5 2xl:grid-cols-5"
+      >
+        <div>
+          <p class="font-bold">Quick Links</p>
+          <ul class="font-normal text-white/50">
+            <li>Blog</li>
+            <li>Event</li>
+            <li>Jobs</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-bold">Discover</p>
+          <ul class="font-normal text-white/50">
+            <li>Jobs</li>
+            <li>Internship</li>
+            <li>Meet Ups</li>
+            <li>Conference</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-bold">Team</p>
+          <ul class="font-normal text-white/50">
+            <li>Projects</li>
+            <li>Reviews</li>
+            <li>Events</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-bold">Contact</p>
+          <ul class="font-normal text-white/50">
+            <li>Slack - Join us on Slack</li>
+            <li>Twitter - @DevCongress</li>
+            <li>Facebook - /DevCongress</li>
+            <li>Youtube - /DevCongress</li>
+            <li>Email - main@devcongress.org</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-bold">Subscribe to Our Newsletter!</p>
+          <p class="font-normal text-white/50">
+            Get the latest updates and insights from DevCongress straight to
+            your inbox. Stay ahead of the curve—subscribe to our newsletter
+            today!
+          </p>
+          <p>Enter your email</p>
+          <button>SUBSCRIBE</button>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const btn = document.querySelector('.mobile-menu-button');
+      const menu = document.querySelector('.mobile-menu');
+      btn.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>
